@@ -1,0 +1,15 @@
+site_name: Docs XEFI (Test)
+theme:
+  name: material
+  language: fr
+extra_css:
+  - styles/extra.css
+plugins:
+  - search
+  - pdf-export:
+      combined: false       # un PDF par page
+      media_type: print
+nav:
+  - Accueil: index.md
+  - Tickets:
+      - Migration AD: tickets/2025-11-10-migration-ad.md
